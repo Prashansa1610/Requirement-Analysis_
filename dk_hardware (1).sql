@@ -4,6 +4,7 @@ Create Database Dk_Hardware;
 Use Dk_hardware;
 -- Create Product Table
 -- 1. Users Table (Independent)
+
 CREATE TABLE Users (
     User_ID INT PRIMARY KEY AUTO_INCREMENT,
     Name VARCHAR(255),
@@ -21,7 +22,7 @@ CREATE TABLE Employees (
     Role VARCHAR(50) -- Example: 'Admin', 'Warehouse Staff', etc.
 );
 
--- 3. Products Table (Independent)
+-- 3. Products Table (Independent )
 CREATE TABLE Products (
     Product_ID INT PRIMARY KEY AUTO_INCREMENT,
     Product_Name VARCHAR(100),
